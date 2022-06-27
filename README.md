@@ -6,7 +6,7 @@ The REASON for this exercise is to get used to protecting the functionality of y
 
 When you start working on teams you won't be merging drectly into main, you will be pushing your feature branch to origin and creating a pull request to have someone review your work!
 
-There are many git cheatsheets out there. Here is [one](https://about.gitlab.com/images/press/git-cheat-sheet.pdf).
+There are many git cheatsheets out there. Here is [one](https://about.gitlab.com/images/press/git-cheat-sheet.pdf) and here is [another](./assets/git-essentials-cheatsheet.pdf) - pdf file can be viewed here via [this extension](https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf).
 
 ***
 ## Today's Exercise
