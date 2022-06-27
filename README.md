@@ -1,70 +1,20 @@
-# Getting Started with Create React App
+## The Goal...
+The goal of this exercise is to get used to creating branches, merging and deleting branches, and also pushing them to the remote origin branch of the original repo. (NOTE: you should not fork this repo before you clone it down to your machine.) 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## The Reason...
+The REASON for this exercise is to get used to protecting the functionality of your existing work as you go. We should start creating feature branches to work on, make sure those work properly, and then merge into main. You can then delete the feature branch (after making sure that main has successfully merged) because you no longer need it!
 
-## Available Scripts
+When you start working on teams you won't be merging drectly into main, you will be pushing your feature branch to origin and creating a pull request to have someone review your work!
 
-In the project directory, you can run:
+There are many git cheatsheets out there. Here is [one](https://about.gitlab.com/images/press/git-cheat-sheet.pdf).
 
-### `npm start`
+***
+## Today's Exercise
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+I will be asking for a volunteer for each exercise to share screen and work thru this git flow.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. First exercise: assuming that you've already cloned down this repo to your machine, create a feature branch with a meaninful branch name (usually includes your name and what your intended feature will be). Get the feature working. Can be any old thing: change the background color of the page, add a button, or an image. You may format something that is already on the page. Once this is working the way you expect, go back to the main branch, merge with your feature branch and push to origin main. Then delete the local feature branch. From there, go to Github and follow the commands to create a pull request.
 
-### `npm test`
+2. Second exercise: assuming that you've already cloned down this repo, create a feature branch as above. But instead of merging with main, push to -u origin <feature-branch-name>. This will create a new branch at origin that tracks with your local feature branch. From there, go to Github and follow the commands to create a pull request. I will accept and merge, and then you can pull down to your main branch and delete your local feature branch.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+3. Third exercise: Two people will create their own individual branches and create some small feature, then merge into main. One will push to origin main and the other will pull the updates from origin main. Assuming that you have been working in the same file, this will create a merge conflict which we will resolve and then push back to origin main.
