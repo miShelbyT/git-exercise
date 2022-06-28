@@ -1,5 +1,3 @@
-
-
 function App() {
   return (
     <div>
@@ -13,6 +11,13 @@ function App() {
         <a href="https://starwars.fandom.com/wiki/Grogu" target="_blank">
           <button> jedi mind trick </button>
         </a>
+        <div>
+          {' '}
+          <img
+            src="https://static.wikia.nocookie.net/starwars/images/b/bf/Vaders_Castle_FDKF.png"
+            alt="the dark side"
+          ></img>{' '}
+        </div>
       </div>
     </div>
   );
