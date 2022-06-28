@@ -1,26 +1,18 @@
 function App() {
    return (
       <div>
-         <div className="App">
-            <header className="header">
-               <h2>Welcome to your git exercise. Good luck and have fun!</h2>
-            </header>
-         </div>
+         <h3>Hello There, Lord Vader!</h3>
+         <h3>Hello There, Lord Vader!</h3>
+         <h3>Hello There, Lord Vader!</h3>
+         <a href="https://starwars.fandom.com/wiki/Grogu" target="_blank">
+            <button> jedi mind trick </button>
+         </a>
          <div>
-            <h3>Hello There, General Kenobi!!!!!</h3>
-            <a href="https://starwars.fandom.com/wiki/Grogu" target="_blank">
-               <button> jedi mind trick </button>
-            </a>
-            <div>
-               {' '}
-               <img
-                  src="https://static.wikia.nocookie.net/starwars/images/b/bf/Vaders_Castle_FDKF.png"
-                  alt="the dark side"
-               ></img>{' '}
-            </div>
-         </div>
-         <div>
-            <h1>The force is strong with this one</h1>
+            {' '}
+            <img
+               src="https://static.wikia.nocookie.net/starwars/images/b/bf/Vaders_Castle_FDKF.png"
+               alt="the dark side"
+            ></img>{' '}
          </div>
       </div>
    );
