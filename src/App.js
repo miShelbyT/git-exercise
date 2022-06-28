@@ -10,6 +10,9 @@ function App() {
       </div>
       <div>
         <h3>Hello There, General Kenobi</h3>
+        <a href="https://starwars.fandom.com/wiki/Grogu" target="_blank">
+          <button> jedi mind trick </button>
+        </a>
       </div>
     </div>
   );
