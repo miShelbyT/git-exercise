@@ -7,7 +7,9 @@ function App() {
         </header>
       </div>
       <div>
-        <h3>Hello There, General Kenobi</h3>
+      <h3>Hello There, Lord Vader!</h3>
+      <h3>Hello There, Lord Vader!</h3>
+      <h3>Hello There, Lord Vader!</h3>
         <a href="https://starwars.fandom.com/wiki/Grogu" target="_blank">
           <button> jedi mind trick </button>
         </a>
