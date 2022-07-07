@@ -18,3 +18,15 @@ I will be asking for a volunteer for each exercise to share screen and work thru
 2. Second exercise: assuming that you've already cloned down this repo, create a feature branch as above. But instead of merging with main, push to -u origin <feature-branch-name>. This will create a new branch at origin that tracks with your local feature branch. From there, go to Github and follow the commands to create a pull request. I will accept and merge, and then you can pull down to your main branch and delete your local feature branch.
 
 3. Third exercise: Two people will create their own individual branches and create some small feature, then merge into main. One will push to origin main and the other will pull the updates from origin main. Assuming that you have been working in the same file, this will create a merge conflict which we will resolve and then push back to origin main.
+
+Some handy commands: 
+  'git log --oneline' - to view all commit names and numbers in a concise list
+
+  'git checkout <commit#>' - safely allows us to go back in time to view an earlier commit without losing our work
+
+  'git checkout master' takes us back to the HEAD of our master branch
+
+  'git revert <commit#>' - adds a new commit that reverts (reverses) that particular commit. we'll need to use :wq to quit the vim editor that is asking us to add/change the commit message.
+
+  'git reset <commit#>' - slightly scary option. permanently reverts to a previous commit but doesn't not remove our code from those later commits. leaves all our code intact but as uncommitted. in case we change our minds.... 
+  very scary option => if we want to discard our additions, we run 'git reset <commit#> --hard'
